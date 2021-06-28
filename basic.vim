@@ -41,7 +41,7 @@ set shortmess+=c
 set cursorline
 
 " give more space for messages
-set cmdheight=1
+set cmdheight=2
 
 " ignore case when searching
 set ignorecase
