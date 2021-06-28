@@ -21,5 +21,6 @@ plugins_config | Plugin specific configurations
 ## Plugs
 
 Title | Description
+--- | ---
 [coc](https://github.com/neoclide/coc.nvim) | For autocompletion
 [gruvbox](https://github.com/morhetz/gruvbox) | Colorscheme
