@@ -17,9 +17,6 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
-" VSCode Ctrl-P
-Plug 'kien/ctrlp.vim'
-
 " lightline
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-fugitive'
