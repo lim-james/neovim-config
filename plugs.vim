@@ -31,6 +31,9 @@ Plug 'tpope/vim-fugitive'
 " commentary
 Plug 'tpope/vim-commentary'
 
+" indentline
+Plug 'yggdroot/indentline'
+
 " colorscheme
 Plug 'sainnhe/gruvbox-material'
 
