@@ -17,12 +17,15 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
-" VSCode Ctrl-P
-Plug 'kien/ctrlp.vim'
-
 " lightline
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-fugitive'
+
+" VSCode Ctrl-P
+Plug 'kien/ctrlp.vim'
+
+" commentary
+Plug 'tpope/vim-commentary'
 
 " colorscheme
 Plug 'morhetz/gruvbox'
