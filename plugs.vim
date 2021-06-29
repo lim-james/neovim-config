@@ -25,6 +25,9 @@ Plug 'junegunn/fzf.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-fugitive'
 
+" commentary
+Plug 'tpope/vim-commentary'
+
 " colorscheme
 Plug 'morhetz/gruvbox'
 
