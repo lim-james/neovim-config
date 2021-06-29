@@ -28,7 +28,7 @@ Plug 'kien/ctrlp.vim'
 Plug 'tpope/vim-commentary'
 
 " colorscheme
-Plug 'morhetz/gruvbox'
+Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 
 call plug#end()
 
