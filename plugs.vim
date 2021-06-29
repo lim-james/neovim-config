@@ -22,6 +22,7 @@ Plug 'kien/ctrlp.vim'
 
 " lightline
 Plug 'itchyny/lightline.vim'
+Plug 'tpope/vim-fugitive'
 
 " colorscheme
 Plug 'morhetz/gruvbox'
