@@ -6,7 +6,7 @@
 " Sections: 
 "     -> Coc
 "     -> NERDTree
-"     -> Ctrl P
+"     -> fzf
 "     -> Lightline
 "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -117,15 +117,17 @@ autocmd VimEnter * if argc() == 0 && !exists('s:std_in') | NERDTree | endif
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Ctrl P
+" => fzf
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:ctrlp_map = '<c-p>'
-let g:ctrlp_cmd = 'CtrlP'
-
-let g:ctrlp_working_path_mode=0
-
-let g:ctrlp_max_height=20
-let g:ctrlp_custom_ignore='node_modules\|^\.DS_Store\|^\.git'
+let $FZF_DEFAULT_OPTS = '--layout=reverse --inline-info'
+let g:fzf_action={
+    \'ctrl-t': 'tab split',
+    \'ctrl-x': 'split',
+    \'ctrl-v': 'vsplit' }
+map <leader>p :FZF<cr>
+map <leader>P :Files<cr>
+map <leader>f :BLines<cr>
+map <leader>F :Rg<cr>
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
