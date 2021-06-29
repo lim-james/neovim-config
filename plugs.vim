@@ -34,5 +34,10 @@ Plug 'tpope/vim-commentary'
 " colorscheme
 Plug 'sainnhe/gruvbox-material'
 
+" language support
+Plug 'pangloss/vim-javascript'
+Plug 'leafgarland/typescript-vim'
+Plug 'maxmellon/vim-jsx-pretty'
+
 call plug#end()
 
