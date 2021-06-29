@@ -7,6 +7,7 @@
 "     -> Coc
 "     -> NERDTree
 "     -> Ctrl P
+"     -> Lightline
 "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
@@ -71,8 +72,6 @@ nmap <leader>rn <Plug>(coc-rename)
 xmap <leader>f  <Plug>(coc-format-selected)
 nmap <leader>f  <Plug>(coc-format-selected)
 
-set statusline^=%{coc#status()}%{get(b:,'coc_current_function','')}
-
 " Mappings for CoCList
 " Show all diagnostics.
 nnoremap <silent><nowait> <space>a  :<C-u>CocList diagnostics<cr>
@@ -127,3 +126,22 @@ let g:ctrlp_working_path_mode=0
 
 let g:ctrlp_max_height=20
 let g:ctrlp_custom_ignore='node_modules\|^\.DS_Store\|^\.git'
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Lightline
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:lightline = {
+    \ 'colorscheme': 'gruvbox',
+	\ 'active': {
+	\   'left': [ [ 'mode', 'paste' ],
+	\             [ 'gitbranch', 'cocstatus', 'readonly', 'filename', 'modified' ] ],
+    \   'right': [['lineinfo'], ['percent']]
+	\ },
+	\ 'component_function': {
+	\   'cocstatus': 'coc#status',
+    \   'gitbranch': 'FugitiveHead'
+	\ },
+    \ 'separator': { 'left': ' ', 'right': ' ' },
+    \ 'subseparator': { 'left': ' ', 'right': ' ' }
+	\ }

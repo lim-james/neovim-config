@@ -40,9 +40,6 @@ set shortmess+=c
 " show current position
 set cursorline
 
-" give more space for messages
-set cmdheight=2
-
 " ignore case when searching
 set ignorecase
 
