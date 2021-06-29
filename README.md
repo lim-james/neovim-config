@@ -27,4 +27,5 @@ Title | Description
 [NERDTree Git Plugin](https://github.com/Xuyuanp/nerdtree-git-plugin) | Git indicators
 [NERDTree Syntax Highlighting](https://github.com/tiagofumo/vim-nerdtree-syntax-highlight) | Tree color coding
 [Dev Icons](https://github.com/ryanoasis/vim-devicons) | Cute icons for filetypes
+[Ctrl P](https://github.com/kien/ctrlp.vim) | Fuzzy search
 [gruvbox](https://github.com/morhetz/gruvbox) | Colorscheme
