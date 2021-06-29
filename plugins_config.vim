@@ -6,7 +6,7 @@
 " Sections: 
 "     -> Coc
 "     -> NERDTree
-"     -> Ctrl P
+"     -> fzf
 "     -> Lightline
 "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -114,6 +114,20 @@ map <leader>nf :NERDTreeFind<cr>
 " Start NERDTree when Vim is started without file arguments
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists('s:std_in') | NERDTree | endif
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => fzf
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let $FZF_DEFAULT_OPTS = '--layout=reverse --inline-info'
+let g:fzf_action={
+    \'ctrl-t': 'tab split',
+    \'ctrl-x': 'split',
+    \'ctrl-v': 'vsplit' }
+map <leader>p :FZF<cr>
+map <leader>P :Files<cr>
+map <leader>f :BLines<cr>
+map <leader>F :Rg<cr>
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
