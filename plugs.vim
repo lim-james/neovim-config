@@ -17,6 +17,9 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
+" VSCode Ctrl-P
+Plug 'kien/ctrlp.vim'
+
 " colorscheme
 Plug 'morhetz/gruvbox'
 
