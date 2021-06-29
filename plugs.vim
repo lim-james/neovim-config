@@ -21,6 +21,9 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
+" floaterm
+Plug 'voldikss/vim-floaterm'
+
 " lightline
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-fugitive'
