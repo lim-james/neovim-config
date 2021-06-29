@@ -30,4 +30,4 @@ Title | Description
 [Lightline](https://github.com/itchyny/lightline) | Configurable statusline
 [FZF](https://github.com/junegunn/fzf.vim) | Fuzzy search
 [Commentary](https://github.com/tpope/vim-commentary) | Comment stuff.
-[gruvbox](https://github.com/morhetz/gruvbox) | Colorscheme
+[gruvbox-material](https://github.com/sainnhe/gruvbox-material) | Colorscheme
