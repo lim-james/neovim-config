@@ -134,7 +134,7 @@ map <leader>F :Rg<cr>
 " => Lightline
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:lightline = {
-    \ 'colorscheme': 'gruvbox',
+    \ 'colorscheme': 'gruvbox_material',
 	\ 'active': {
 	\   'left': [ [ 'mode', 'paste' ],
     \             [ 'gitbranch' ],

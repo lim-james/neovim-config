@@ -37,6 +37,9 @@ set shortmess+=c
 " => VIM user interface
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+" set scroll off ratio to 8
+set scrolloff=8
+
 " show current position
 set cursorline
 
@@ -58,7 +61,8 @@ set magic
 " => Colors and Fonts
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-" enable wider range of colors
+" enable wider range of colorsgruvbox
+let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 set termguicolors
 
 " enable syntax highlighting
@@ -67,9 +71,9 @@ syntax on
 " set colorscheme
 set background=dark
 try
-    let g:gruvbox_contrast_dark='hard'
-    let g:gruvbox_contrast_dark='bg0'
-    colorscheme gruvbox
+    let g:gruvbox_material_enable_italic=1
+    let g:gruvbox_material_sign_column_background='none'
+    colorscheme gruvbox-material
 catch
 endtry
 
