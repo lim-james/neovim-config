@@ -29,7 +29,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-commentary'
 
 " colorscheme
-Plug 'morhetz/gruvbox'
+Plug 'sainnhe/gruvbox-material'
 
 call plug#end()
 
