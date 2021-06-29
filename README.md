@@ -23,4 +23,8 @@ plugins_config | Plugin specific configurations
 Title | Description
 --- | ---
 [coc](https://github.com/neoclide/coc.nvim) | For autocompletion
+[NERDTree](https://github.com/preservim/nerdtree) | Folder tree navigation
+[NERDTree Git Plugin](https://github.com/Xuyuanp/nerdtree-git-plugin) | Git indicators
+[NERDTree Syntax Highlighting](https://github.com/tiagofumo/vim-nerdtree-syntax-highlight) | Tree color coding
+[Dev Icons](https://github.com/ryanoasis/vim-devicons) | Cute icons for filetypes
 [gruvbox](https://github.com/morhetz/gruvbox) | Colorscheme
