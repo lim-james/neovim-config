@@ -137,12 +137,12 @@ map <C-h> <C-W>h
 map <C-l> <C-W>l
 
 " Managing tabs
-map <tab>n :tabnew<cr>
-map <tab>o :tabonly<cr>
-map <tab>c :tabclose<cr>
+noremap <silent> <tab>t :tabnew<cr>
+noremap <silent> <tab>x :tabonly<cr>
+noremap <silent> <tab>w :tabclose<cr>
 " Navigating tabs
-map <tab>h gT
-map <tab>l gt
+noremap <tab>h gT
+noremap <tab>l gt
 noremap <tab>1 1gt
 noremap <tab>2 2gt
 noremap <tab>3 3gt
