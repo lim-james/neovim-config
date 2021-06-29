@@ -31,11 +31,13 @@ Plug 'tpope/vim-fugitive'
 " commentary
 Plug 'tpope/vim-commentary'
 
-" indentline
-Plug 'yggdroot/indentline'
-
 " colorscheme
 Plug 'sainnhe/gruvbox-material'
+
+" language support
+Plug 'pangloss/vim-javascript'
+Plug 'leafgarland/typescript-vim'
+Plug 'maxmellon/vim-jsx-pretty'
 
 call plug#end()
 
