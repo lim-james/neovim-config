@@ -135,7 +135,8 @@ let g:lightline = {
     \ 'colorscheme': 'gruvbox',
 	\ 'active': {
 	\   'left': [ [ 'mode', 'paste' ],
-	\             [ 'gitbranch', 'cocstatus', 'readonly', 'filename', 'modified' ] ],
+    \             [ 'gitbranch' ],
+	\             [ 'cocstatus', 'readonly', 'filename', 'modified' ] ],
     \   'right': [['lineinfo'], ['percent']]
 	\ },
 	\ 'component_function': {
