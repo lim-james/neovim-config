@@ -5,6 +5,7 @@
 "
 " Sections: 
 "     -> Coc
+"     -> NERDTree
 "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
@@ -88,3 +89,28 @@ nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
+
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => NERDTree
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Hide files
+let g:NERDTreeShowHidden=0
+let g:NERDTreeIgnore=['\.pyc$', '__pycache', '\.meta$', '^node_modules$']
+" Looks
+let g:NERDTreeWinPos="right"
+let g:NERDTreeWinSize=35
+let g:NERDTreeDirArrows=1
+let g:NERDTreeShowLineNumbers=1
+" Git
+let g:NERDTreeGitStatusShowClean=1
+let g:NERDTreeGitStatusIndicatorMapCustom = { 'Clean': ' ' }
+" Others
+let g:NERDTreeAutoDeleteBuffer=1
+
+map <leader>nn :NERDTreeToggle<cr>
+map <leader>nb :NERDTreeFromBookmark<cr>
+map <leader>nf :NERDTreeFind<cr>
+" Start NERDTree when Vim is started without file arguments
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists('s:std_in') | NERDTree | endif
