@@ -17,12 +17,13 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 
+" fzf
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+
 " lightline
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-fugitive'
-
-" VSCode Ctrl-P
-Plug 'kien/ctrlp.vim'
 
 " commentary
 Plug 'tpope/vim-commentary'

@@ -28,6 +28,6 @@ Title | Description
 [NERDTree Syntax Highlighting](https://github.com/tiagofumo/vim-nerdtree-syntax-highlight) | Tree color coding
 [Dev Icons](https://github.com/ryanoasis/vim-devicons) | Cute icons for filetypes
 [Lightline](https://github.com/itchyny/lightline) | Configurable statusline
-[Ctrl P](https://github.com/kien/ctrlp.vim) | Fuzzy search
+[FZF](https://github.com/junegunn/fzf.vim) | Fuzzy search
 [Commentary](https://github.com/tpope/vim-commentary) | Comment stuff.
 [gruvbox](https://github.com/morhetz/gruvbox) | Colorscheme
